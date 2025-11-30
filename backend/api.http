@@ -1,0 +1,49 @@
+### Seed database (run once)
+POST http://localhost:5000/api/seed
+
+### Health Check
+GET http://localhost:5000/api/health
+
+
+### Register User
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+  "name": "Test User",
+  "email": "test@example.com",
+  "password": "test123"
+}
+
+
+### Login
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "test@example.com",
+  "password": "test123"
+}
+### Login as Admin
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "admin@example.com",
+  "password": "admin123"
+}
+
+
+
+### Get All Users (requires token)
+GET http://localhost:5000/api/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MmIwMzMxMmQxZTBmZGQ0NTQwZjhlYSIsImVtYWlsIjoiYWRtaW5AZXhhbXBsZS5jb20iLCJyb2xlIjoiQWRtaW4iLCJpYXQiOjE3NjQ0NzQzMTIsImV4cCI6MTc2NDU2MDcxMn0.fL2ReDOH3D8zSlA-O03fmHFEsRPEVgVbrDAp_IJnbHE
+
+
+### Get Analytics (requires token)
+GET http://localhost:5000/api/analytics/metrics
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MmIwMzMxMmQxZTBmZGQ0NTQwZjhlYSIsImVtYWlsIjoiYWRtaW5AZXhhbXBsZS5jb20iLCJyb2xlIjoiQWRtaW4iLCJpYXQiOjE3NjQ0NzQzMTIsImV4cCI6MTc2NDU2MDcxMn0.fL2ReDOH3D8zSlA-O03fmHFEsRPEVgVbrDAp_IJnbHE
+
+### 3. Get chart data
+GET http://localhost:5000/api/analytics/charts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MmIwMzMxMmQxZTBmZGQ0NTQwZjhlYSIsImVtYWlsIjoiYWRtaW5AZXhhbXBsZS5jb20iLCJyb2xlIjoiQWRtaW4iLCJpYXQiOjE3NjQ0NzQzMTIsImV4cCI6MTc2NDU2MDcxMn0.fL2ReDOH3D8zSlA-O03fmHFEsRPEVgVbrDAp_IJnbHE
