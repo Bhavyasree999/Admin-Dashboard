@@ -6,11 +6,11 @@ It provides secure authentication, user role management, and interactive analyti
 The backend and frontend are structured separately in the same project.
 
 Features
-Admin Authentication
+Admin Authentication  
 
 A secure JWT-based login system that verifies admin credentials before accessing the dashboard.
 
-User Management
+User Management 
 
 Admins can manage users with the following actions:
 
