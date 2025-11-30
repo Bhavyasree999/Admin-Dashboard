@@ -175,7 +175,6 @@ http://localhost:5173
 ## Drawbacks / Limitations
 
 - Only admin login available (no signup).  
-- Charts refresh on page load, not real-time.  
 - Exporting and advanced filtering not implemented yet.  
 
 ---
