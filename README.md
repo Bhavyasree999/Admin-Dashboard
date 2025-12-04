@@ -1,6 +1,6 @@
 # Admin Dashboard with Analytics & Reporting
 
-This project is a full-stack admin dashboard built using the MERN stack (MongoDB, Express.js, React, Node.js). It includes secure authentication, user role management, and interactive analytics visualizations such as charts, metrics, and user insights. The backend and frontend are structured separately within the same project.
+This project is a full-stack admin dashboard built using the MEAN stack (MongoDB, Express.js, Angular, Node.js). It includes secure authentication, user role management, and interactive analytics visualizations such as charts, metrics, and user insights. The backend and frontend are structured separately within the same project.
 
 ---
 
