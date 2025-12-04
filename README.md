@@ -36,6 +36,7 @@ Sidebar navigation remains fixed while content scrolls independently.
 ## Tech Stack
 
 ### Frontend
+- Angular
 - React.js (Vite)  
 - Axios  
 - Recharts  
