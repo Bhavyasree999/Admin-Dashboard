@@ -185,6 +185,19 @@ This structure and functionality reflect what is commonly used in CRM dashboards
 
 ---
 
+## Project Outputs 
+### 🔹 Login Page
+![Login Page](output/login_page.png)
+
+### 🔹 Dashboard View
+![Dashboard 1](output/dashboard1.png)
+![Dashboard 2](output/dashboard2.png)
+
+## user mangemnet 
+![User Mangement 1 ](output/user_mangement1.png)
+![User Mangement 2 ](output/user_mangement2.png)
+
+
 ## License
 
 This project is developed for academic and learning purposes.
